@@ -1,0 +1,8 @@
+#topBar{
+    position: fixed;
+    width: 100%;
+    height: 120px;
+    background-color: black;
+    top: 0px;
+    z-index: 1;
+}
