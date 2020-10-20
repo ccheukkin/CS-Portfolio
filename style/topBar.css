@@ -4,7 +4,7 @@
     height: 80px;
     background-color: rgba(0,0,0,0);
     top: 0px;
-    z-index: 2;
+    z-index: 3;
     display: flex;
     align-items: center;
 }

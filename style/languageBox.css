@@ -6,11 +6,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    z-index: 2;
+    position: relative
 }
 #languageBox .title{
     color: black;
     font-family: Staatliches, sans-serif;
     font-size: 80px;
+    position: relative;
 }
 #languageBox .hl{
     width: 90%;

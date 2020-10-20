@@ -6,9 +6,11 @@ window.onscroll = function() {
     if (currentScrollPos < 700) {
         console.log("rgba(0,0,0,"+(currentScrollPos/700).toString()+")");
         document.getElementById("topBar").style.backgroundColor = "rgba(0,0,0,"+(currentScrollPos/700).toString()+")";
+        // document.getElementById("mainTitle").style.backgroundColor = "rgba(0,0,0,"+(0.5+currentScrollPos/1400).toString()+")";
     }
     else{
         document.getElementById("topBar").style.backgroundColor = "rgba(0,0,0,1)";
+        // document.getElementById("mainTitle").style.backgroundColor = "rgba(0,0,0,1)";
     }
 
     let languageList = document.getElementsByClassName("lang");
