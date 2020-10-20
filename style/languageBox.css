@@ -1,0 +1,58 @@
+#languageBox{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(231, 231, 231);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#languageBox .title{
+    color: black;
+    font-family: Staatliches, sans-serif;
+    font-size: 80px;
+}
+#languageBox .hl{
+    width: 90%;
+    height: 1px;
+    background-color: black;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+#languageBox .languageList{
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#languageBox img{
+    width: 150px;
+}
+#languageBox .caption{
+    text-align: center;
+    font-size: 25px;
+}
+#languageBox .lang{
+    position: relative;
+}
+#languageBox .py{
+    transition: opacity 0.2s, top 0.2s;
+}
+#languageBox .java{
+    transition: opacity 0.35s, top 0.35s;
+}
+#languageBox .cs{
+    transition: opacity 0.5s, top 0.5s;
+}
+#languageBox .html{
+    transition: opacity 0.65s, top 0.65s;
+}
+#languageBox .css{
+    transition: opacity 0.8s, top 0.8s;
+}
+#languageBox .js{
+    transition: opacity 0.95s, top 0.95s;
+}

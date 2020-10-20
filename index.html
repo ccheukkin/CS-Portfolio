@@ -8,30 +8,49 @@
     <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Turret+Road:wght@200;500;800&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="style/topBar.css">
     <link rel="stylesheet" href="style/banner.css">
-    <link rel="stylesheet" href="style/language.css">
+    <link rel="stylesheet" href="style/languageBox.css">
+    <link rel="stylesheet" href="style/project.css">
+
+    <script src="script/main.js"></script>
+    <script src="script/buttonSetUp.js"></script>
+    <script src="script/scroll.js"></script>
 
     <title>Chan Cheuk Kin's Portfolio</title>
 </head>
 <body>
-    <div id=topBar>
-
+    <div id="topBar">
+        <div id="logo">ccheukkin</div>
     </div>
     <div id="banner">
-        <div id="title">
+        <div id="mainTitle" class="title">
             <div class="heavy">Chan Cheuk Kin's Portfolio</div>
             <div class="light">Record of previous computer science project. (CHANGE THIS DESCRIPTION LATER)</div>
             <div id="githubLinks">
-                <div class="button">personal github account ></div>
-                <div class="button">school github account ></div>
+                <a href="https://github.com/covector" target="_blank"><div class="button"><div class="text">Personal GitHub ></div></div></a>
+                <div style="width:20px"></div>
+                <a href="https://github.com/ccheukkin" target="_blank"><div class="button"><div class="text">School GitHub ></div></div></a>
             </div>
         </div>
 
     </div>
-    <div id="language">
+    <div id="languageBox">
+        <div class="title">Languages Commonly Used</div>
+        <div class="hl"></div>
+        <div class="languageList">
+            <div class="lang py"><img src="images/language_logo/py.png" alt="Python Logo"/><div class="caption">Python</div></div>
+            <div class="lang java"><img src="images/language_logo/java.png" alt="Java Logo"/><div class="caption">Java</div></div>
+            <div class="lang cs"><img src="images/language_logo/cs.png" alt="C# Logo"/><div class="caption">C#</div></div>
+            <div class="lang html"><img src="images/language_logo/html.png" alt="HTML Logo"/><div class="caption">HTML</div></div>
+            <div class="lang css"><img src="images/language_logo/css.png" alt="CSS Logo"/><div class="caption">CSS</div></div>
+            <div class="lang js"><img src="images/language_logo/js.png" alt="JavaScript Logo"/><div class="caption">JavaScript</div></div>
+        </div>
+    </div>
+    <div class="project">
 
     </div>
 </body>

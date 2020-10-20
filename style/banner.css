@@ -1,27 +1,38 @@
 #banner{
     width: 100%;
-    height: 700px;
+    height: 800px;
     background-color: rgb(26, 26, 26);
     display: flex;
     flex-direction: column-reverse;
     color: white;
 }
-#title{
+#banner .title{
     padding-bottom: 30px;
     padding-left: 30px;
+    position: relative;
+    top: 100px;
+    opacity: 0;
+    transition: top 0.8s, opacity 0.8s;
 }
-#title .heavy{
+#banner .title .heavy{
     font-size: 120px;
     font-family: Staatliches, sans-serif;
 }
-#title .light{
+#banner .title .light{
     font-size: 24px;
-    font-family: QuickSand, sans-serif;
     font-weight: 100;
 }
-#title #githubLinks{
+#banner .title #githubLinks{
     display: flex;
     margin-top: 30px;
-    font-family: "Major Mono Display", sans-serif;
-    font-weight: 100;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-family: "Turret Road", "Major Mono Display", sans-serif;
+}
+#banner .title .button{
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
 }

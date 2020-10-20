@@ -1,4 +1,29 @@
 body{
     margin: 0;
-    font-family: Roboto, sans-serif;
+    font-family: QuickSand, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.button{
+    color: black;
+    background-color: white;
+    transition: color 0.2s;
+}
+.button .back{
+    width: 0%;
+    height: 100%;
+    background-color: black;
+    position: relative;
+    top: -100%;
+    transition: width 0.2s;
+}
+.button:hover{
+    cursor: pointer;
+    color: white;
+}
+.button .text{
+    position: relative;
+    z-index: 1;
+    color: inherit;
 }
