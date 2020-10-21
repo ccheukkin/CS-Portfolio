@@ -9,6 +9,7 @@ a{
     color: black;
     background-color: white;
     transition: color 0.2s;
+    text-align: center;
 }
 .button .back{
     width: 0%;
@@ -26,4 +27,8 @@ a{
     position: relative;
     z-index: 1;
     color: inherit;
+}
+.slideUp{
+    position: relative;
+    transition: top 0.8s, opacity 0.8s;
 }

@@ -4,13 +4,10 @@ window.onscroll = function() {
     let currentScrollPos = window.pageYOffset;
     let bottomPos = currentScrollPos + window.screen.height;
     if (currentScrollPos < 700) {
-        console.log("rgba(0,0,0,"+(currentScrollPos/700).toString()+")");
         document.getElementById("topBar").style.backgroundColor = "rgba(0,0,0,"+(currentScrollPos/700).toString()+")";
-        // document.getElementById("mainTitle").style.backgroundColor = "rgba(0,0,0,"+(0.5+currentScrollPos/1400).toString()+")";
     }
     else{
         document.getElementById("topBar").style.backgroundColor = "rgba(0,0,0,1)";
-        // document.getElementById("mainTitle").style.backgroundColor = "rgba(0,0,0,1)";
     }
 
     let languageList = document.getElementsByClassName("lang");
@@ -24,6 +21,15 @@ window.onscroll = function() {
             languageList[i].style.top = "100px";
             languageList[i].style.opacity = "0";
         }
+    }
+
+    if (bottomPos < 1850) {
+        document.getElementById("pivotText").style.top = "100px";
+        document.getElementById("pivotText").style.opacity = "0";
+    }
+    else{
+        document.getElementById("pivotText").style.top = "0";
+        document.getElementById("pivotText").style.opacity = "1";
     }
 
     prevScrollPos = window.pageYOffset;
