@@ -3,7 +3,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(29, 29, 29);
+    background-image: linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)), url("../images/pivotBack.png");
+    background-size: cover;
     color: white;
     background-attachment: fixed;
 }
