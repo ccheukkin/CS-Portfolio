@@ -1,5 +1,4 @@
-window.onload = function(){
+function load(){
     setUpButton();
     titleSlide();
-    window.onscroll();
 }
