@@ -14,3 +14,15 @@
     color: white;
     font-size: 20px;
 }
+@media screen and (max-width: 500px){
+    #topBar #logo{
+        margin-left: 20px;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 300px){
+    #topBar #logo{
+        margin-left: 15px;
+        font-size: 12px;
+    }
+}

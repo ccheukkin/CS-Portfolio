@@ -6,6 +6,7 @@
     background-size: cover;
     color: white;
     background-attachment: fixed;
+    background-position: center;
 }
 .projectBox .title{
     font-family: Staatliches, sans-serif;
@@ -24,19 +25,18 @@
 }
 .project{
     width: 100%;
-    /* height: 500px; */
     display: flex;
     flex-direction: row;
     color: white;
     padding-top: 100px;
     padding-bottom: 100px;
     background-attachment: fixed;
-}
-.project.first{
-    padding-top: 0px;
+    background-position: center;
+    align-items: center;
 }
 .project .col{
     width: 50%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -65,6 +65,7 @@
     width: 100%;
 }
 .project .light{
+    font-size: 16px;
     width: 100%;
 }
 .project .buttons{
@@ -91,6 +92,9 @@
     line-height: 40px;
     font-size: 18px;
 }
+.project .space{
+    width: 18px;
+}
 .projectBox.pivot{
     background-image: linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)), url("../images/pivotBack.png");
 }
@@ -102,4 +106,143 @@
 }
 .project.aoaoc{
     background-image: linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)), url("../images/aoaocBack.png");
+}
+@media screen and (max-width: 1000px){
+    .projectBox .title{
+        font-size: 70px;
+        padding-top: 50px;
+    }
+    .projectBox .hl{
+        margin-bottom: 25px;
+    }
+    .project .heavy{
+        font-size: 55px;
+    }
+    .project .light{
+        font-size: 14px;
+    }
+    .project .buttons{
+        margin-top: 17px;
+    }
+    .project .buttons .repo{
+        width: 120px;
+        height: 32px;
+        line-height: 32px;
+        font-size: 15px;
+    }
+    .project .buttons .codePaper{
+        width: 80px;
+        height: 32px;
+        line-height: 32px;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 650px){
+    .projectBox .title{
+        font-size: 55px;
+        padding-top: 45px;
+    }
+    .project .heavy{
+        font-size: 40px;
+    }
+    .project .light{
+        font-size: 12px;
+    }
+    .project .buttons{
+        margin-top: 12px;
+    }
+    .project .buttons .repo{
+        width: 100px;
+        height: 27px;
+        line-height: 27px;
+        font-size: 12px;
+    }
+    .project .buttons .codePaper{
+        width: 68px;
+        height: 27px;
+        line-height: 27px;
+        font-size: 12px;
+    }
+    .project .space{
+        width: 13px;
+    }
+    .project{
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+}
+@media screen and (max-width: 500px){
+    .projectBox .title{
+        font-size: 45px;
+        padding-top: 40px;
+    }
+    .project .heavy{
+        font-size: 32px;
+    }
+    .project .light{
+        font-size: 10px;
+    }
+    .project .buttons{
+        margin-top: 10px;
+    }
+    .project .buttons .repo{
+        width: 80px;
+        height: 22px;
+        line-height: 22px;
+        font-size: 10px;
+    }
+    .project .buttons .codePaper{
+        width: 50px;
+        height: 22px;
+        line-height: 22px;
+        font-size: 10px;
+    }
+    .project .space{
+        width: 8px;
+    }
+    .project{
+        padding-top: 85px;
+        padding-bottom: 85px;
+    }
+    .project img{
+        border-width: 3px;
+        border-radius: 6px;
+    }
+}
+@media screen and (max-width: 400px){
+    .projectBox .title{
+        font-size: 30px;
+        padding-top: 30px;
+    }
+    .project .heavy{
+        font-size: 20px;
+    }
+    .project .light{
+        font-size: 8px;
+    }
+    .project .buttons{
+        margin-top: 8px;
+    }
+    .project .buttons .repo{
+        width: 60px;
+        height: 18px;
+        line-height: 18px;
+        font-size: 8px;
+    }
+    .project .buttons .codePaper{
+        width: 40px;
+        height: 18px;
+        line-height: 18px;
+        font-size: 8px;
+    }
+    .project .space{
+        width: 4px;
+    }
+    .project{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
+.project.first{
+    padding-top: 0px;
 }

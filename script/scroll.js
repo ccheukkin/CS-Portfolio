@@ -44,7 +44,7 @@ window.onscroll = function() {
     prevScrollPos = window.pageYOffset;
 }
 
-function titileSlide(){
+function titleSlide(){
     document.getElementById("mainTitle").style.top = "0";
     document.getElementById("mainTitle").style.opacity = "1";
 }

@@ -59,3 +59,73 @@
 #languageBox .js{
     transition: opacity 0.95s, top 0.95s;
 }
+@media screen and (max-width: 1100px){
+    #languageBox{
+        height: 400px;
+    }
+    #languageBox .title{
+        font-size: 70px;
+    }
+    #languageBox img{
+        width: 120px;
+    }
+    #languageBox .caption{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 900px){
+    #languageBox{
+        height: 300px;
+    }
+    #languageBox .title{
+        font-size: 55px;
+    }
+    #languageBox img{
+        width: 90px;
+    }
+    #languageBox .caption{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 700px){
+    #languageBox{
+        height: 250px;
+    }
+    #languageBox .title{
+        font-size: 38px;
+    }
+    #languageBox img{
+        width: 60px;
+    }
+    #languageBox .caption{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 450px){
+    #languageBox{
+        height: 200px;
+    }
+    #languageBox .title{
+        font-size: 30px;
+    }
+    #languageBox img{
+        width: 40px;
+    }
+    #languageBox .caption{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 310px){
+    #languageBox{
+        height: 150px;
+    }
+    #languageBox .title{
+        font-size: 20px;
+    }
+    #languageBox img{
+        width: 30px;
+    }
+    #languageBox .caption{
+        font-size: 8px;
+    }
+}
