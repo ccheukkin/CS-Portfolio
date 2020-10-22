@@ -3,7 +3,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)), url("../images/pivotBack.png");
     background-size: cover;
     color: white;
     background-attachment: fixed;
@@ -55,6 +54,10 @@
 }
 .project img{
     width: 100%;
+    border-style: solid;
+    border-color: rgb(37, 37, 37);
+    border-width: 5px;
+    border-radius: 8px;
 }
 .project .heavy{
     font-family: Staatliches, sans-serif;
@@ -64,17 +67,7 @@
 .project .light{
     width: 100%;
 }
-/* .project .right .languageList{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 100%;
-    margin-top: 20px;
-}
-.project .right .languageList img{
-    width: 60px;
-} */
-.project .right .buttons{
+.project .buttons{
     width: 100%;
     display: flex;
     margin-top: 20px;
@@ -92,6 +85,21 @@
     line-height: 40px;
     font-size: 18px;
 }
+.project .buttons .codePaper{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+}
 .projectBox.pivot{
-    background-image: url();
+    background-image: linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)), url("../images/pivotBack.png");
+}
+.project.neuroe{
+    background-image: linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)), url("../images/neuroeBack.png");
+}
+.project.tetris{
+    background-image: linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)), url("../images/tetrisBack.png");
+}
+.project.aoaoc{
+    background-image: linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)), url("../images/aoaocBack.png");
 }
