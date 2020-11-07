@@ -25,6 +25,7 @@
 #banner .title .light{
     font-size: 24px;
     font-weight: 100;
+    width: 80%;
 }
 #banner .title #githubLinks{
     display: flex;

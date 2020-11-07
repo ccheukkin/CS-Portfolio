@@ -21,16 +21,16 @@
     <script src="script/buttonSetUp.js"></script>
     <script src="script/scroll.js"></script>
 
-    <title>Chan Cheuk Kin's Portfolio</title>
+    <title>Chan Cheuk Kin's GitHub Portfolio</title>
 </head>
 <body onload="load()">
     <div id="topBar">
-        <div id="logo">ccheukkin</div>
+        <div id="logo">chan cheuk kin</div>
     </div>
     <div id="banner">
         <div id="mainTitle" class="title slideUp">
             <div class="heavy">Chan Cheuk Kin's Portfolio</div>
-            <div class="light">List of GitHub projects done in the past.</div>
+            <div class="light">I am a 17 year old student from HKCCU Logos Academy, and this is my portfolio for university applications. This portfolio was created from scratch using HTML5, CSS and Javascript.</div>
             <div id="githubLinks">
                 <a href="https://github.com/covector" target="_blank"><div class="button"><div class="text">Personal GitHub ></div></div></a>
                 <div class="space"></div>
@@ -59,7 +59,7 @@
         </div>
         <div class="col right slideUp" id="pivotSlide">
             <div class="heavy" id="pivotDetect">piVot Game</div>
-            <div class="light">A singleplayer game made using <u>Unity3D</u> and written in <u>C#</u>. In the game, the player can change the pivot of a weapon (e.g. an axe, a gun). The goal of the game is to get as much coin as possible without being killed by the red enemy.</div>
+            <div class="light">A singleplayer game made using <a href="https://unity.com/" target="_blank">Unity3D</a> and written in C#. In the game, the player can change the pivot of a weapon (e.g. an axe, a gun). The goal of the game is to get as much coin as possible without being killed by the red enemy.</div>
             <div class="buttons">
                 <a href="https://github.com/covector/piVot" target="_blank"><div class="button repo"><div class="text">Repository ></div></div></a>
             </div>
@@ -69,7 +69,7 @@
     <div class="project neuroe">
         <div class="col left slideUp" id="neuroeSlide">
             <div class="heavy" id="neuroeDetect">NeuroEvolution</div>
-            <div class="light">A game where the player (white circle) have to compete with AI bots (black circle), which are trained using Neuroevolution in <u>Reinforcement learning</u>, in a game of dodging lasers. <u>Neuroevolution</u> is an algorithm where the AI is "trained" using natural selection.</div>
+            <div class="light">A game where the player (white circle) have to compete with AI bots (black circle), which are trained using <a href="https://en.wikipedia.org/wiki/Neuroevolution" target="_blank">Neuroevolution</a> in Reinforcement learning, in a game of dodging lasers. <a href="https://en.wikipedia.org/wiki/Neuroevolution" target="_blank">Neuroevolution</a> is an algorithm where the AI is "trained" using natural selection.</div>
             <div class="buttons">
                 <a href="https://github.com/covector/NeuroEvolution-Game-Source" target="_blank"><div class="button repo"><div class="text">Repository ></div></div></a>
                 <div class="space"></div>
@@ -86,7 +86,7 @@
         </div>
         <div class="col right slideUp" id="aoaocSlide">
             <div class="heavy" id="aoaocDetect">AOAOC Algorithm</div>
-            <div class="light">An algorithm developed for my IB Extended Essay, where I investigate how localized options are trained in <u>Option-Critic</u>. The algorithm is tested in the Four Rooms environment, where the agent need to walk to a specific cell in order to win.</div>
+            <div class="light">An algorithm developed for my IB Extended Essay, where I investigate how localized options are trained in <a href="https://arxiv.org/abs/1609.05140" target="_blank">Option-Critic</a>. The algorithm is tested in the Four Rooms environment, where the agent learn to walk to a specific cell in order to win.</div>
             <div class="buttons">
                 <a href="https://github.com/covector/AOAOC/tree/master/code" target="_blank"><div class="button codePaper"><div class="text">Code ></div></div></a>
                 <div class="space"></div>
@@ -97,13 +97,25 @@
     <div class="project tetris">
         <div class="col left slideUp" id="tetrisSlide">
             <div class="heavy" id="tetrisDetect">Tetris Game</div>
-            <div class="light">A game made using <u>Unity3D</u> and written in <u>C#</u> to emulate the classic game - Tetris. In the game, the player has to build using blocks of various shape, and gain points by aligning blocks into a horizontal line.</div>
+            <div class="light">A game made using <a href="https://unity.com/" target="_blank">Unity3D</a> and written in C# to emulate the classic game - Tetris. In the game, the player has to build using blocks of various shape, and gain points by aligning blocks into a horizontal line.</div>
             <div class="buttons">
                 <a href="https://github.com/covector/Tetris-Unity" target="_blank"><div class="button repo"><div class="text">Repository ></div></div></a>
             </div>
         </div>
         <div class="col right">
             <img src="images/tetrisAnimated.gif" alt="Tetris Game Demo"/>
+        </div>
+    </div>
+    <div class="project selftris">
+        <div class="col left">
+            <img src="images/selftrisAnimated.png" alt="WIP"/>
+        </div>
+        <div class="col right slideUp" id="selftrisSlide">
+            <div class="heavy" id="selftrisDetect">Self-Play Tetris</div>
+            <div class="light">An attempt to apply <a href="https://openai.com/blog/competitive-self-play/" target="_blank">self-play</a> to the classic game - Tetris. The training will be performed using the <a href="https://github.com/Unity-Technologies/ml-agents" target="_blank">Unity ML-Agents Toolkit</a>, where the environment will be written in C# and the policy will be trained in Python.</div>
+            <div class="buttons">
+                <a href="https://github.com/covector/Selftris" target="_blank"><div class="button repo"><div class="text">Repository ></div></div></a>
+            </div>
         </div>
     </div>
 </body>

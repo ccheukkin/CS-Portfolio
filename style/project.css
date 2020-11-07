@@ -69,6 +69,10 @@
     font-size: 16px;
     width: 100%;
 }
+.project .light a{
+    color: white;
+    text-decoration: underline;
+}
 .project .buttons{
     width: 100%;
     display: flex;
@@ -107,6 +111,9 @@
 }
 .project.aoaoc{
     background-image: linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)), url("../images/aoaocBack.png");
+}
+.project.selftris{
+    background-color: rgb(22, 22, 22);
 }
 @media screen and (max-width: 1000px){
     .projectBox .title{
