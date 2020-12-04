@@ -2,7 +2,8 @@ var slidePair = [
     ["pivotDetect","pivotSlide"],
     ["neuroeDetect","neuroeSlide"],
     ["aoaocDetect","aoaocSlide"],
-    ["tetrisDetect","tetrisSlide"]
+    ["tetrisDetect","tetrisSlide"],
+    ["selftrisDetect","selftrisSlide"]
 ]
 var prevScrollPos = window.pageYOffset;
 
