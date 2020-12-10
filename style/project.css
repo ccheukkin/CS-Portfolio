@@ -53,6 +53,13 @@
     padding-right: 3%;
     padding-left: 7%;
 }
+.project video{
+    width: 100%;
+    border-style: solid;
+    border-color: rgb(37, 37, 37);
+    border-width: 5px;
+    border-radius: 8px;
+}
 .project img{
     width: 100%;
     border-style: solid;
@@ -211,6 +218,10 @@
     .project{
         padding-top: 85px;
         padding-bottom: 85px;
+    }
+    .project video{
+        border-width: 3px;
+        border-radius: 6px;
     }
     .project img{
         border-width: 3px;
