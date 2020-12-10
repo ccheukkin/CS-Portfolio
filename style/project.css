@@ -108,16 +108,16 @@
     width: 18px;
 }
 .projectBox.pivot{
-    background-image: linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)), url("../images/pivotBack.jpg");
+    background-image: linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)), url("../images/pivotBack.webp");
 }
 .project.neuroe{
-    background-image: linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)), url("../images/neuroeBack.jpg");
+    background-image: linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)), url("../images/neuroeBack.webp");
 }
 .project.tetris{
-    background-image: linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)), url("../images/tetrisBack.jpg");
+    background-image: linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)), url("../images/tetrisBack.webp");
 }
 .project.aoaoc{
-    background-image: linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)), url("../images/aoaocBack.jpg");
+    background-image: linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)), url("../images/aoaocBack.webp");
 }
 .project.selftris{
     background-color: rgb(22, 22, 22);
