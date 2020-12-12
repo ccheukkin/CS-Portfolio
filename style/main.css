@@ -35,3 +35,15 @@ a{
     position: relative;
     transition: top 0.8s, opacity 0.8s;
 }
+#footnote{
+    background-color: black;
+    color: white;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+#footnote a{
+    color: white;
+    font-weight: 900;
+    text-decoration: underline;
+}
