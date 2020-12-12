@@ -6,15 +6,20 @@ var slidePair = [
     ["selftrisDetect","selftrisSlide"]
 ]
 var prevScrollPos = window.pageYOffset;
+const parallax = 0.4;
 
 window.onscroll = function() {
     let currentScrollPos = window.pageYOffset;
     let winHeight = window.innerHeight;
     if (currentScrollPos < 700) {
-        document.getElementById("topBar").style.backgroundColor = "rgba(0,0,0,"+(currentScrollPos/700).toString()+")";
+        let percent = currentScrollPos/700;
+        document.getElementById("topBar").style.backgroundColor = "rgba(0,0,0,"+percent.toString()+")";
+        let rgbPercent = percent * 255;
+        document.getElementById("logo").style.color = `rgb(${rgbPercent},${rgbPercent},${rgbPercent})`;
     }
     else{
         document.getElementById("topBar").style.backgroundColor = "rgba(0,0,0,1)";
+        document.getElementById("logo").style.color = "rgb(255,255,255)";
     }
 
     let languageList = document.getElementsByClassName("lang");
@@ -41,6 +46,8 @@ window.onscroll = function() {
             slide.style.opacity = "1";
         }
     }
+
+    document.getElementById("banner").style.backgroundPositionY = -1 * currentScrollPos * parallax + "px";
 
     prevScrollPos = window.pageYOffset;
 }
